@@ -34,7 +34,7 @@ const About = () => {
             <img className="profile-image" src={profilepic} alt="" />      
             <p className="about-text">
               I'm a full stack developer located in Gothenburg, Sweden. 
-              I design and build web sites using Javascript and Typescript.
+              I design and build web sites using Java and JavaScript.
               <br/>
               <br/>
               <span className="responsive-text">I've always been someone who has both a creative and a logical side. 
