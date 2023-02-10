@@ -1,7 +1,7 @@
 .contact-container {
     background:linear-gradient(to right, black,  #13151f,  var(--secondary-color));
     width: 100%;
-    height: 160vh;
+    height: 100vh;
     margin-top: 0px;
     padding-top: 0px;
     display: flex;

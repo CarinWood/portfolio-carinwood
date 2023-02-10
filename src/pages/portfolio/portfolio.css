@@ -17,10 +17,11 @@
     font-size: 90px;
     letter-spacing: 3px;
     padding-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 70px;
+ 
 }
 
-.first-row, .second-row {
+.first-row {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,10 +30,6 @@
     width: 80%;
 }
 
-.second-row {
-    margin-top: 100px;
-    margin-bottom: 60px;
-}
 
 .box1 {
    display: flex;
@@ -192,6 +189,7 @@
         padding-top: 0px;
         margin-top: 80px;
         margin-bottom: 20px;
+        
     }
 
     .first-row, .second-row {

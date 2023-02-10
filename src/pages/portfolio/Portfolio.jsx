@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <div className="projects-container" id="portfolio">
       <h1 className="portfolio-headline">Projects</h1>
-      <section className="second-row">
+      <section className="first-row">
         <div className="box1">
         <h1 className="project-title">Raw Food</h1>
           <FaCarrot className="fashion-icon"/>
