@@ -1,0 +1,280 @@
+.projects-container {
+    width: 100%;
+    height: auto;
+    background:linear-gradient(to right, black,  #13151f,  var(--secondary-color));
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.portfolio-headline {
+    color: var(--primary-color);
+    font-family: 'corinthia';
+    font-size: 90px;
+    letter-spacing: 3px;
+    padding-top: 60px;
+    margin-bottom: 120px;
+}
+
+.first-row, .second-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 80%;
+}
+
+.second-row {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.box1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 20px auto;
+   width: 350px;
+   height: auto;
+   margin-right: 10px;
+   margin-left: 10px;
+
+}
+
+.divider {
+    width: 0.05vw;
+    height: 28vh;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.box2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 20px auto;
+   width: 350px;
+   height: auto;
+   margin-right: 10px;  
+   margin-left: 10px;
+}
+
+.box3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 20px auto;
+   width: 350px;
+   height: auto;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.project-title {
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sub {
+    font-size: 17px;
+    color: whitesmoke;
+    opacity: 0.8;
+    font-family: 'Montserrat';
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.view-button {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor:pointer;
+    color: var(--primary-color);
+    background-color: transparent;
+    font-family:'montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-top: 13px;
+    width: 110px; 
+    transition: 0.6s ease-in-out;
+}
+
+.view-button:active {
+    transform: translateY(2px);
+}
+
+.view-button:hover {
+    border: 1px solid rgb(90, 192, 192);
+    color: rgb(90, 192, 192);
+    transition: 0.6s ease-in-out;
+}
+
+
+.a-tag {
+    color: white !important;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 0.8px;
+}
+
+
+.a-tag:hover {
+    color: teal !important;
+}
+
+.japan-icon {
+    color: white;
+    font-size: 30px;
+    opacity: 0.45;
+}
+.fashion-icon {
+    color: white;
+    font-size: 30px;
+    opacity: 0.45;
+}
+.todo-icon {
+    color: white;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+@media (max-width: 845px) {
+
+    .portfolio-headline {
+        font-size: 90px;
+        letter-spacing: 3px;
+        padding-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .project-title {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .sub {
+        font-size: 12px;
+        color: whitesmoke;
+        opacity: 0.8;
+        font-family: 'Montserrat';
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .view-button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects-container {
+        height: 260vh;
+        max-width: 99%;
+        justify-content: flex-start;
+        
+    }
+
+    .portfolio-headline {
+        font-size: 70px;
+        letter-spacing: 3px;
+        padding-top: 0px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .first-row, .second-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 90%;
+    }
+
+    .project-title {
+        color: whitesmoke;
+        font-family: 'Montserrat';
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+    .view-button {
+        border: 1px solid var(--primary-color);
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px;
+        margin-top: 20px;
+        width: 100px; 
+        margin-bottom: 25px;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px auto;
+        width: 330px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+     }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px auto;
+        width: 330px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+     }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px auto;
+        width: 330px;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 3px;
+     }
+
+     .divider {
+         height: 0.001vh;
+         visibility: hidden;
+     }
+
+     .japan-icon, .fashion-icon, .todo-icon {
+         margin-top: -7px;
+         margin-bottom: 7px;
+     }
+
+     
+}

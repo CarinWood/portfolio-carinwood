@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: black;;
+}
+
+:root {
+  --primary-color: teal;
+  --text-color: #fff;
+  --secondary-color: #1f2233;
+}
+

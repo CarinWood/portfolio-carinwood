@@ -1,0 +1,218 @@
+.info-section {
+    position: absolute;
+    left: 31%;
+    top: 25%;
+}
+
+.connect-section {
+    position: absolute;
+    right: 31%;
+    top: 25%;
+}
+
+.email-div, .linkedin-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.linkedin-div {
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+.youtube-text, .linkedin-text, .github-text, .email-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+._headline {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Montserrat";
+    margin-top: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.github-headline {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+
+.youtube-icon {
+    color: teal;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+.github-icon {
+    color: teal;
+    font-size: 30px;
+    margin-right: 15px;
+} 
+
+.github-text {
+    opacity: 1;
+}
+
+
+._headline::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 1px;
+    background: white;
+    transition: 0.2s ease-in-out;
+}
+
+._headline:hover::after {
+    left: 0%;
+    width: 100%;
+}
+
+.atag {
+    text-decoration: none;
+}
+
+
+/* Experiment */
+
+.contact-icons {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top row */
+
+.top-row {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+ 
+}
+
+.email-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.youtube-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.headline-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedinid {
+    margin-bottom: 2px;
+}
+
+
+/* Bottom row */
+
+.bottom-row {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+
+/* subtexts */
+
+
+.email-subtext, .youtube-subtext{
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-top: 5px;
+    color: white;
+    opacity: 0.5;
+
+}
+
+/* Icons */
+
+.email-icon, .github-icon, .youtube-icon, .linked-icon {
+    color: teal;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+
+@media (max-width: 1290px) {
+  .info-section {
+      margin-top: -130px;
+  }
+
+  .connect-section {
+      margin-top: -130px;
+  }
+}
+
+@media (max-width: 845px) {
+    .top-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .bottom-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .email-div {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .youtube-div {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .youtube-div, .email-div {
+        margin-left: 60px;
+    }
+
+    ._headline::after {
+        height: 0px;
+    }
+}

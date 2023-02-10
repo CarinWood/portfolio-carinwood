@@ -1,0 +1,111 @@
+.center {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup {
+    width: 580px;
+    height: 280px;
+    padding: 30px 20px;
+    background:linear-gradient(to right, black,  #13151f,  var(--secondary-color));
+    color: whitesmoke;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+    text-align: center;
+    border: 4px solid teal;
+    opacity: 1 !important;
+    z-index: 100;
+    transition: opacity 500ms ease-in-out,
+                top 500ms ease-in-out,
+                transform 500ms ease-in-out;
+    animation: pop 200ms ease-in-out;
+}
+
+@keyframes pop {
+    0% {
+        top: -200%;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        top: 63%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes away {
+    0% {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        top: -200%;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    
+}
+
+.check {
+    font-size: 25px;
+    color: teal;
+}
+
+.popup .icon {
+    margin: 5px 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid teal;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 60px;
+}
+
+.popup .title {
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}
+
+.popup .description {
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 1px;
+}
+
+.dismiss-btn {
+    margin-top: 15px;
+}
+
+.dismiss-btn button {
+    padding: 8px 2px;
+    background: teal;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    width: 80px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 500ms ease-in-out
+}
+
+.dismiss-btn button:active {
+    transform: translateY(3px);
+}
+
+.dismiss-btn button:hover {
+    opacity: 0.8;
+    transition: 500ms ease-in-out
+}

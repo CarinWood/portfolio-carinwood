@@ -1,0 +1,26 @@
+.socials-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    width: 200px;
+}
+
+.github {
+    font-size: 22px;
+    color: white;
+}
+
+.linkedin {
+ 
+    font-size: 22px;
+    color: white;
+}
+
+.youtube {
+  
+    font-size: 22px;
+    color: white;
+}
+
