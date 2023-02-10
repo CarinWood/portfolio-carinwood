@@ -36,7 +36,7 @@ window.addEventListener('scroll', changeBackground)
                 <Link to="about" 
                 spy={true} 
                 smooth="true"
-                offset={0} 
+                offset={-15} 
                 duration={500} 
                 className='list-item'
                 > About </Link>
@@ -45,7 +45,7 @@ window.addEventListener('scroll', changeBackground)
                 <Link to="portfolio" 
                 spy={true} 
                 smooth="true"
-                offset={0} 
+                offset={25} 
                 duration={500} 
                 className='list-item'
                 > Projects </Link>
