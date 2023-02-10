@@ -90,10 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="./src/assets/img/PortfolioPic1.JPG" style="width: 500px;">
 
 
-<img src="./src/assets/img/PortfolioPic2.JPG" style="width: 500px;">
-
-
 <img src="./src/assets/img/portfolio3.JPG" style="width: 500px;">
-
-
-<img src="./src/assets/img/portfolio4.JPG" style="width: 500px;">
